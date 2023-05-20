@@ -12,7 +12,7 @@ int main()
 	scanf("%d %d",&n,&r);
 	result=permutation(n,r);
 	
-	printf("Permutation of %dP%d = %d",n,r,result);
+	printf("Permutation of %d P %d = %d",n,r,result);
 	return 0;
 }
 int permutation(int n,int r)
